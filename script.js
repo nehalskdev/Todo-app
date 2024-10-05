@@ -4,6 +4,7 @@ const addBtn = document.querySelector("button");
 const input = document.querySelector("input");
 
 // adding element
+
 addBtn.addEventListener("click", (e) => {
   const markup = `
         <div class="new-element">
