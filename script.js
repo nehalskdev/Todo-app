@@ -7,10 +7,12 @@ const input = document.querySelector("input");
 addBtn.addEventListener("click", (e) => {
   const markup = `
         <div class="new-element">
-            <h3 class="dlt-el">☑️${input.value}</h3>
+            <h3 class="dlt-el">☑️${(input.value)}</h3>
             
         </div>`;
-  addBtn.insertAdjacentHTML("afterend", markup);
+    if (!input.value == '') {addBtn.insertAdjacentHTML("afterend", markup)}; 
+
+    
 });
 
 // deleting element
