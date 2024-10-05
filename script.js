@@ -14,7 +14,7 @@ addBtn.addEventListener("click", (e) => {
   if (!input.value == "") {
       addBtn.insertAdjacentHTML("afterend", markup);
       input.value = '';
-  }
+  }else alert("Enter a task to add!!");
 });
 
 // deleting element
