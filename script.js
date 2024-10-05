@@ -21,6 +21,7 @@ addBtn.addEventListener("click", (e) => {
 
 document.body.addEventListener("click", (e) => {
   if (e.target.classList.contains("dlt-el")) {
+    alert((e.target.textContent = "Delete this?"));
     e.target.remove();
   }
 });
