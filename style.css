@@ -27,7 +27,7 @@ body {
   background-size: 20px 20px, 20px 20px, 10px 10px, 10px 10px;
 }
 .container {
-    margin-top: 3rem;
+  margin-top: 3rem;
   height: 35rem;
   width: 22rem;
   background-color: rgb(127, 132, 218);
@@ -48,7 +48,7 @@ button {
   cursor: pointer;
 }
 .new-element {
-  text-align: justify;
+  font-family: "Courier New", Courier, monospace;
   text-wrap: balance;
   cursor: pointer;
   margin-left: 1rem;
