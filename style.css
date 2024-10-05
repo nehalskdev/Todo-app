@@ -48,8 +48,6 @@ button {
   cursor: pointer;
 }
 .new-element {
-  height: 2rem;
-  width: auto;
   text-align: justify;
   text-wrap: balance;
   cursor: pointer;
