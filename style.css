@@ -3,12 +3,34 @@ body {
   display: flex;
   justify-content: center;
   align-items: flex-start;
+  background-color: #eeeef0;
+  opacity: 0.9;
+  background: radial-gradient(
+      circle,
+      transparent 20%,
+      #eeeef0 20%,
+      #eeeef0 80%,
+      transparent 80%,
+      transparent
+    ),
+    radial-gradient(
+        circle,
+        transparent 20%,
+        #eeeef0 20%,
+        #eeeef0 80%,
+        transparent 80%,
+        transparent
+      )
+      10px 10px,
+    linear-gradient(#39b0ee 0.8px, transparent 0.8px) 0 -0.4px,
+    linear-gradient(90deg, #39b0ee 0.8px, #eeeef0 0.8px) -0.4px 0;
+  background-size: 20px 20px, 20px 20px, 10px 10px, 10px 10px;
 }
 .container {
   height: 35rem;
   width: 22rem;
   background-color: rgb(247, 162, 162);
-  border: 1px solid black;
+  border: 2px solid black;
   border-radius: 5px;
   box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
 }
