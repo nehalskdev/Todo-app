@@ -12,7 +12,8 @@ addBtn.addEventListener("click", (e) => {
             
         </div>`;
   if (!input.value == "") {
-    addBtn.insertAdjacentHTML("afterend", markup);
+      addBtn.insertAdjacentHTML("afterend", markup);
+      input.value = '';
   }
 });
 
