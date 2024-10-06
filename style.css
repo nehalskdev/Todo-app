@@ -26,8 +26,14 @@ body {
     linear-gradient(90deg, #39b0ee 0.8px, #eeeef0 0.8px) -0.4px 0;
   background-size: 20px 20px, 20px 20px, 10px 10px, 10px 10px;
 }
+h2 {
+  font-family: "Courier New", Courier, monospace;
+  position: relative;
+  text-align: center;
+}
 .container {
-  margin-top: 3rem;
+  position: absolute;
+  margin-top: 4rem;
   min-height: 20rem;
   width: 22rem;
   background-color: rgb(127, 132, 218);
