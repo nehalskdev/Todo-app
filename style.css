@@ -1,3 +1,8 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
   height: 100vh;
   display: flex;
@@ -25,11 +30,13 @@ body {
     linear-gradient(#39b0ee 0.8px, transparent 0.8px) 0 -0.4px,
     linear-gradient(90deg, #39b0ee 0.8px, #eeeef0 0.8px) -0.4px 0;
   background-size: 20px 20px, 20px 20px, 10px 10px, 10px 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 h2 {
-  font-family: "Courier New", Courier, monospace;
   position: relative;
+  top: 1.5rem;
   text-align: center;
+   animation: fadeIn 1s forwards ease;
 }
 .container {
   position: absolute;
@@ -40,23 +47,35 @@ h2 {
   border: 2px solid black;
   border-radius: 5px;
   box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+   animation: fadeIn 1s forwards ease;
 }
 input {
   margin: 1rem 0 0.5rem 1rem;
+  padding: 1rem 0 1rem 0.5rem;
   width: 16.5rem;
   height: 1.5rem;
   border-radius: 5px;
   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 button {
-  padding: 5px;
+  padding: 8px;
   border-radius: 5px;
   cursor: pointer;
 }
 .new-element {
-  font-family: "Courier New", Courier, monospace;
   text-wrap: balance;
   cursor: pointer;
-  margin-left: 1rem;
+  margin: 1rem 0 0 1rem;
   overflow: hidden;
+  animation: fadeIn 1s forwards ease;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-2rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }

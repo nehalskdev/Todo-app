@@ -9,7 +9,6 @@ addBtn.addEventListener("click", (e) => {
   const markup = `
         <div class="new-element">
             <h4 class="dlt-el">☑️${input.value.toUpperCase()}</h4>
-            
         </div>`;
   if (!input.value == "") {
     addBtn.insertAdjacentHTML("afterend", markup);
